@@ -37,3 +37,7 @@ print(email1)
 number = 10
 if number >0:
     print(f"number {number} is positive")
+
+message = 'positive' if number >0 else 'negative or zero'
+
+print(message)
