@@ -14,3 +14,26 @@ class Person:
 
 ali = Person("ali")
 print(ali)
+
+name = 'Sheldon'
+
+
+email = """
+Hi {},
+It was nice to talk to you.
+Regards
+Robin
+"""
+print(email.format(name))
+
+email1 = f"""
+Hi {name},
+It was nice to talk to you.
+Regards
+Robin
+"""
+print(email1)
+
+number = 10
+if number >0:
+    print(f"number {number} is positive")
