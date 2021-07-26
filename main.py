@@ -41,3 +41,26 @@ if number >0:
 message = 'positive' if number >0 else 'negative or zero'
 
 print(message)
+
+person = {
+    'name': 'Robin',
+    'age': 20
+}
+
+for key, value in person.items():
+    print(f"key: {key}, value: {value}")
+
+# for key in person:
+#     print(f"key: {key} with value of {person[key]}")
+result = 0
+numbers = [1, 3, 5]
+
+for number in numbers:
+    result += number
+
+print(f'result = {result}')
+
+def greet(name):
+    print(f'hello {name}, how are you')
+
+greet('Robin')
