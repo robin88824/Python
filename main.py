@@ -64,3 +64,31 @@ def greet(name):
     print(f'hello {name}, how are you')
 
 greet('Robin')
+
+from math import isqrt
+print(isqrt(25))
+
+class Phone:
+    def __init__(self, brand, price):
+        self.brand = brand
+        self.price = price
+
+    def call(self, number):
+        print(f'phone {self.brand} is calling {number}')
+
+    def __str__(self) -> str:
+        return f'Brand {self.brand} \nPrice = {self.price}'
+
+
+iphone = Phone('iphone', 1000)
+
+print(iphone.brand)
+print(iphone.price)
+iphone.call('999')
+print(iphone)
+
+import datetime
+now = datetime.date.today()
+print(now.strftime('%d-%m-%Y'))
+print(now.strftime('%d-%B-%Y'))
+print(now.strftime('%d-%b-%Y'))
