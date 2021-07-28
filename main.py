@@ -92,3 +92,4 @@ now = datetime.date.today()
 print(now.strftime('%d-%m-%Y'))
 print(now.strftime('%d-%B-%Y'))
 print(now.strftime('%d-%b-%Y'))
+
